@@ -14,21 +14,18 @@ const userSchema = new mongoose.Schema({
             required: [true,"Name is required"], 
             minlength:[3,"Name is must be 3 characters"]
         },
-    lastname: { type: String,
-            required: [true,"Name is required"], 
-            minlength:[3,"Name is must be 3 characters"]
+    phoneNum: { type: Number,
+            required: [true,"phoneNum is required"], 
+            minlength:[10,"phoneNum is must be 10 characters"]
         },
 
-    firstname: { type: String,
-            required: [true,"Name is required"], 
-            minlength:[3,"Name is must be 3 characters"]
-        },
-    lastname: { type: String,
-            required: [true,"Name is required"], 
-            minlength:[3,"Name is must be 3 characters"]
+    password: { type: password,
+          required: [true,"password is required"], 
+            minlength:[password,"Name is must be 8 characters"]
         },
         
+    
 }, { timestamps: true });
 
 const user = mongoose.model("user", userSchema);
-module.exports = user;
+module.exports = {user,userSchema};
