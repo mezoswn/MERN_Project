@@ -1,11 +1,11 @@
-const user = require("../models/user.model");
+const {user} = require("../models/user.model");
 
 //////find all/////////////
 
-module.exports.findAllusers = (req , res) => {
-  user.find()
-  .then(allusers => res.json( allusers))
-  .catch(err => res.json({ message: "Something went wrong", error: err }));
+module.exports.findAllusers = (request , response) => {
+  user.find({})
+  .then(allusers => response.json( allusers))
+  .catch(err => response.json({ message: "Something went wrong", error: err }));
 
 };
 

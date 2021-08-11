@@ -19,9 +19,9 @@ const userSchema = new mongoose.Schema({
             minlength:[10,"phoneNum is must be 10 characters"]
         },
 
-    password: { type: password,
+    password: { type: String,
           required: [true,"password is required"], 
-            minlength:[password,"Name is must be 8 characters"]
+            minlength:[8,"Name is must be 8 characters"]
         },
         
     
