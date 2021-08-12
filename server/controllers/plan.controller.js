@@ -1,13 +1,13 @@
 
 const plan = require("../models/plan.model");
-const { user } = require("../models/user.model");
+const { user}  = require("../models/user.model");
 
 
 
 module.exports.findAllPlan = (req , res) => {
-    plan.find()
-    .then(allPlan => res.json( allusers))
-    .catch(err => res.json({ message: "Something went wrong", error: err }));
+    plan.find({})
+    .then(allPlan => res.json( allPlan))
+    .catch(err => res.status(400).json({ message: "Something went wrong", error: err }));
   
   };
   
@@ -22,13 +22,13 @@ module.exports.findAllPlan = (req , res) => {
   //////////////create///////////////
   
   module.exports.createNewPlan = (req, res) => {
-      const {weight,height,age,condtions,goal}= req.body;
+      const {weight,height,age,condtions,goal,user}= req.body;
       //must find the user first using the id from the login 
-    user.find({id}).then(user => {
-        plan.create(weight,height,age,condtions,goal, user)
+    // user.find({id}).then(user => {
+        plan.create({weight,height,age,condtions,goal,user})
         .then(newlyCreateduser => res.json({ user: newlyCreateduser }))
-        .catch(err => res.json({ message: "Something went wrong", error: err }));
-    })
+        .catch(err => res.json(err));
+    // })
   };
   
   ////////update////////////////////

@@ -55,4 +55,4 @@ userSchema.pre('validate', function(next) {
 });
 
 const user = mongoose.model("user", userSchema);
-module.exports = {user,userSchema};
+module.exports = user;

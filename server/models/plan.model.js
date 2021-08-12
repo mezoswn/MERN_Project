@@ -8,7 +8,7 @@ const planSchema = new mongoose.Schema({
         required: [true,"weight is required"], 
         
     },
-    height: { type: number,
+    height: { type: Number,
         required: [true,"height is required"], 
         
     },
@@ -27,7 +27,10 @@ const planSchema = new mongoose.Schema({
 
     },
 
-    user: UserSchema
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "user"
+    }
 
 })
 const plan = mongoose.model("plan", planSchema);

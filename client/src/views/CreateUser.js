@@ -2,6 +2,7 @@ import { navigate } from '@reach/router'
 import React, { useState } from 'react'
 import axios from 'axios'
 import UserForm from '../component/UserForm'
+import Cookies from "js-cookie"
 const CreateUser = () => {
     const [errors , serErrors]=useState([]);
 
@@ -9,7 +10,8 @@ const CreateUser = () => {
         
         axios.post('http://localhost:8000/api/register/new', user)
             .then(res => {
-                navigate("/")
+                Cookies.set('userId',res.data.user._id)
+                navigate("/plan")
             })
             .catch(err=>{
                 const errorResponse = err.response.data.errors; // Get the errors from err.response.data
