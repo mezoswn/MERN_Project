@@ -1,11 +1,22 @@
 import './App.css';
-import UserForm from './component/UserForm';
+import { Router } from '@reach/router';
+import CreateUser from './views/CreateUser';
+import Home from './views/Home';
+import LogOut from './component/LogOut';
 
 function App() {
   return (
+
     <div className="App">
-        <UserForm/> 
+      <Router>
+        <CreateUser path="new"/>
+        {/* <Home path="/"/> */}
+        <LogOut path="/"/>
+      </Router>
+
+
     </div>
+
   );
 }
 

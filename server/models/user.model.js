@@ -3,12 +3,12 @@ const bcrypt = require('bcrypt');
 
 const userSchema = new mongoose.Schema({
     firstname: { type: String,
-            required: [true,"Name is required"], 
-            minlength:[3,"Name is must be 3 characters"]
+            required: [true,"FirstName is required"], 
+            minlength:[3,"FirstName is must be 3 characters"]
         },
     lastname: { type: String,
-            required: [true,"Name is required"], 
-            minlength:[3,"Name is must be 3 characters"]
+            required: [true,"LastName is required"], 
+            minlength:[3,"LastName is must be 3 characters"]
         },
 
       email: {
@@ -18,15 +18,16 @@ const userSchema = new mongoose.Schema({
             validator: val => /^([\w-\.]+@([\w-]+\.)+[\w-]+)?$/.test(val),
             message: "Please enter a valid email"
           }
+          
         },
-    phoneNum: { type: Number,
+    phoneNum: { type: String,
             required: [true,"phoneNum is required"], 
             minlength:[10,"phoneNum is must be 10 characters"]
         },
 
     password: { type: String,
           required: [true,"password is required"], 
-            minlength:[8,"Name is must be 8 characters"]
+            minlength:[8,"Password is must be 8 characters"]
         },
         
     
@@ -46,6 +47,7 @@ userSchema.pre('save', function(next) {
 });
 
 userSchema.pre('validate', function(next) {
+  console.log(this.password + " ------------------------ " + this.confirmPassword)
   if (this.password !== this.confirmPassword) {
       this.invalidate('confirmPassword', 'Password must match confirm password');
   }
