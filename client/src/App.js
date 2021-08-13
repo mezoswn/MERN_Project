@@ -11,7 +11,8 @@ function App() {
 
     <div className="App">
       <Router>
-        <CreateUser path="/new"/>
+
+        <CreateUser path="/regester"/>
         <Login path="/"/>
         <Plan path="/plan"/>
         
