@@ -67,13 +67,15 @@ module.exports.register = (req, res) => {
 
 module.exports.login = async (req, res) => {
   console.log("asdasd");
-  const User = await user.findOne({ email: req.body.email })
-    .catch(err => res.status(400).json(err));
-  if (User === null) {
-    return res.sendStatus(400);
-  }
 
+  const User = await user.findOne({email: req.body.email })
+  .catch(err => res.status(400).json(err));
+ if (User === null) {
+   console.log("hello")
+  return res.sendStatus(400);
+}
   const correctPassword = await bcrypt.compare(req.body.password, User.password);
+  
   if (!correctPassword) {
     return res.sendStatus(400);
   }
