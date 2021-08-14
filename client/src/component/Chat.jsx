@@ -20,7 +20,6 @@ const Chat = () => {
   const [socket] = useState(() => io(":8000"));
   const [loaded, setLoaded] = useState(false);
   const [currMessage, setCurrMessage] = useState("");
-
   const date = new Date();
   const [hour, minutes] = [date.getHours(), date.getMinutes()];
   const time = `${hour}:${minutes}`;
@@ -38,8 +37,7 @@ const Chat = () => {
 
   useEffect(() => {
     console.log("Is this running?");
-    const userId = Cookies.get('userId');
-    // console.log(userId);
+    const userId = Cookies.get('usertoken');
     axios.get(`http://localhost:8000/api/user/${userId}`)
     .then(res => {
       console.log(res.data.user.firstname)

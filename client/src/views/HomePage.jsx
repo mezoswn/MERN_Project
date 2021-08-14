@@ -49,24 +49,16 @@ export default function HomePage() {
   };
 
   return (
+
+    
     <>
+        
       <Box display="flex" p={1} bgcolor="background.paper">
         <Box p={1} flexGrow={1}>
           <Card className={classes.root}>
             <CardHeader
-            //   avatar={
-            //     <Avatar aria-label="recipe" className={classes.avatar}>
-            //       <img src="../imgs/logo.jpg"/>
-            //     </Avatar>
-            //   }
-        
               title="Our Value"
             />
-            {/* <CardMedia
-              className={classes.media}
-              image="/static/images/cards/paella.jpg"
-              title="Paella dish"
-            /> */}
             <CardContent>
               <Typography variant="body2" color="textSecondary" component="p">
               Get fit with a membership to Golden Gym Palestine, located in Abu Shukhaydam, Birzeit. With our exceptional health club, you’ll reach your fitness goals in no time, whether you’re aiming to lose weight, flatten your abs or shred upper body muscles. 
@@ -107,11 +99,7 @@ Talk with one of our personal training experts for a free fitness assessment, an
         <Box p={35}>
           <Card className={classes.root}>
             <CardHeader
-            //   avatar={
-            //     <Avatar aria-label="recipe" className={classes.avatar}>
-            //       R
-            //     </Avatar>
-            //   }
+          
               action={
                 <IconButton aria-label="settings">
                   <MoreVertIcon />
@@ -120,11 +108,7 @@ Talk with one of our personal training experts for a free fitness assessment, an
               title="Our Goals"
               
             />
-            {/* <CardMedia
-              className={classes.media}
-              image="/static/images/cards/paella.jpg"
-              title="Paella dish"
-            /> */}
+      
             <CardContent>
               <Typography variant="body2" color="textSecondary" component="p">
                 This impressive paella is a perfect party dish and a fun meal to

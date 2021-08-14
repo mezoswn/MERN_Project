@@ -42,7 +42,7 @@ export default props => {
         <>
 
             <div>
-                
+                {msg}
                 <form onSubmit={onSubmitHandler} >
                     <FormControl>
                         <InputLabel >First Name:</InputLabel>
@@ -88,7 +88,6 @@ export default props => {
                             onChange={(e) => { setPassword(e.target.value) }} />
                     </FormControl>
                     <br />
-                        {msg}
                     <FormControl>
                         <InputLabel>Confirm Password</InputLabel><br />
                         <Input
@@ -99,7 +98,7 @@ export default props => {
                     <br /><br />
 
                     <Button className={classes.root} type="submit" >submit</Button>
-                            {/* <input type="submit"/> */}
+                    {/* <input type="submit"/> */}
 
                 </form>
             </div>

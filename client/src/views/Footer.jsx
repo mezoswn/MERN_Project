@@ -41,27 +41,6 @@ const Footer = () => {
     <Copyright />
   </Box>
   
-    
-    // <Box color="white" p={2}
-    //   display="flex"
-    //   flexWrap="wrap"
-    //   alignContent="flex-end"
-    //   style={{bottom:"0", width:"100%", position:"fixed"}}
-    // >
-    //   <AppBar  position="static" color="primary">
-    //     <Container maxWidth="md">
-    //       <Toolbar>
-    //         <Typography variant="body1" color="inherit">
-    //           © 2021 GoldenGym 
-    //           <br />
-    //           <TwitterIcon />
-    //           <FacebookIcon />
-    //           <InstagramIcon />
-    //         </Typography>
-    //       </Toolbar>
-    //     </Container>
-    //   </AppBar>
-    //   </Box>
   );
 };
 

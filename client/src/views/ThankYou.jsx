@@ -36,7 +36,7 @@ const ThankYou = () => {
           Having trouble? Contact us
         </Button>
         </Link>
-        <Link className="btn" to="/">
+        <Link className="btn" to="/home">
           <Button variant="outlined" color="primary">Back to homepage</Button>
         </Link>
       </Container>

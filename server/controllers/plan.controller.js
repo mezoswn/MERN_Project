@@ -22,15 +22,19 @@ module.exports.findAllPlan = (req , res) => {
   //////////////create///////////////
   
   module.exports.createNewPlan = (req, res) => {
-      const {weight,height,age,condtions,goal,user}= req.body;
+      const {weight,height,age,condtions,goal}= req.body;
       //must find the user first using the id from the login 
-    // user.find({id}).then(user => {
+        user.findOne({_id:req.params.id}).then(user => {
+          console.log(user)
         plan.create({weight,height,age,condtions,goal,user})
-        .then(newlyCreateduser => res.json({ user: newlyCreateduser }))
+        .then(plan => {
+          console.log(plan)
+          res.json({ user: plan })
+        })
         .catch(err => res.json(err));
     // })
-  };
-  
+  })
+}
   ////////update////////////////////
   
   module.exports.updatePlan = (req, res) => {

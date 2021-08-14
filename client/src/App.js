@@ -1,32 +1,32 @@
 import './App.css';
-import { Router } from '@reach/router';
+import { Redirect, Router } from '@reach/router';
 import CreateUser from './views/CreateUser';
-import LogOut from './component/LogOut';
 import Login from './views/Login';
-import Plan from './views/Plan';
+import CreatePlan from './views/CreatePlan';
 import ThankYou from './views/ThankYou';
 import ContactUsFull from './views/ContactUsFull';
 import ProgramPage from './views/ProgramPage';
 import HomePage from './views/HomePage';
 import Footer from './views/Footer';
 import NavBar from './views/NavBar';
+import Cookies from 'js-cookie';
 
 function App() {
   return (
 
-    <div className="App">
-      <NavBar/>
-      <Router>
 
-        <CreateUser path="/regester"/>
-        <Login path="/"/>
-        <Plan path="/plan"/>
-        <ThankYou path="/thank-you"/>
-        <ContactUsFull path="contact-us"/>
-        <ProgramPage path="programs"/>
-        <HomePage path="home"/>
+    <div className="App">
+      <NavBar />
+      <Router>
+        <CreateUser path="/regester" />
+        <Login path="/" />
+        <CreatePlan path="/plan" />
+        <ThankYou path="/thank-you" />
+        <ContactUsFull path="contact-us" />
+        <ProgramPage path="programs" />
+        <HomePage path="home" />
       </Router>
-      <Footer/>
+      <Footer />
 
 
     </div>
