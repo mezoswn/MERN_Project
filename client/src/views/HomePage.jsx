@@ -16,6 +16,7 @@ import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import Box from '@material-ui/core/Box';
+import NavBar from "./NavBar";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -50,6 +51,7 @@ export default function HomePage() {
 
   return (
     <>
+    <NavBar/>
       <Box display="flex" p={1} bgcolor="background.paper">
         <Box p={1} flexGrow={1}>
           <Card className={classes.root}>

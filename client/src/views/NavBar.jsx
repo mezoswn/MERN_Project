@@ -4,10 +4,12 @@ import {Link} from '@reach/router';
 import LogOut from '../component/LogOut';
 import { navigate } from '@reach/router';
 import axios from 'axios';
+import Cookies from 'js-cookie';
 const NavBar = () => {
 
-  const logout = user => {
-        
+  const logout = () => {
+    const user = Cookies.get('useID');
+    console.log(user)
     axios.get('http://localhost:8000/api/logout', user)
         .then(res => {
             console.log("hi");

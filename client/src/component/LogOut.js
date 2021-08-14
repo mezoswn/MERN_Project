@@ -5,7 +5,6 @@ import { navigate } from '@reach/router'
 const LogOut = () => {
 
     const logout = user => {
-        
         axios.get('http://localhost:8000/api/logout', user)
             .then(res => {
                 navigate("/new")

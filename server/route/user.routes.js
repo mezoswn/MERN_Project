@@ -8,5 +8,5 @@ module.exports = app => {
   // app.delete("/api/user/delete/:id", userControllers.deleteAnExistinguser);
   app.post("/api/register/new", userControllers.register);
   app.post("/api/login", userControllers.login);
-  app.get("/api/logout", userControllers.logout);
+  app.get("/api/logout/:id", userControllers.logout);
 };

@@ -14,7 +14,7 @@ import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
 import { makeStyles } from '@material-ui/core/styles';
-
+import NavBar from './NavBar';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -44,6 +44,7 @@ export default function ProgramPage() {
 
   return (
     <React.Fragment>
+      <NavBar/>
       <main>
         {/* Hero unit */}
         <Box

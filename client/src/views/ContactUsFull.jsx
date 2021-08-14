@@ -4,11 +4,12 @@ import Chat from '../component/Chat';
 import Map from './Map';
 import ContactUs from './ContactUs';
 import Box from '@material-ui/core/Box';
-
+import NavBar from "./NavBar";
 
 const ContactUsFull = () => {
   return (
     <div>
+      <NavBar/>
       <Container>
         
         <Box display="flex" p={1} bgcolor="background.paper">
