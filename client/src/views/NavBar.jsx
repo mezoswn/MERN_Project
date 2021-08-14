@@ -6,6 +6,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 const NavBar = () => {
 
+<<<<<<< HEAD
   const LogOut = (e) => {
     e.preventDefault();
     axios.get('http://localhost:8000/api/logout')
@@ -39,6 +40,16 @@ const NavBar = () => {
             </Link>
 
           </li>
+=======
+  const logout = () => {
+    const user = Cookies.get('useID');
+    console.log(user)
+    axios.get('http://localhost:8000/api/logout', user)
+        .then(res => {
+            console.log("hi");
+        })
+}
+>>>>>>> 96701ed04005470b67be90c9ba96449c29c30d49
 
         </ul>
       </div>

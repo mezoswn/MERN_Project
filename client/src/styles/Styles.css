@@ -3,10 +3,11 @@ html,body {
     font-family: 'Raleway', sans-serif;  
 }
 .thankyou-page ._header {
-    background: #00adee;
+    
     padding: 100px 30px;
+    height:100%;
     text-align: center;
-    background: #00adee url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
+    background:  url(https://www.virginactive.com.au/images/library/Blog/Media/Workoutready_730x411.jpg) center/cover no-repeat;
 }
 .thankyou-page ._header .logo {
     max-width: 200px;
