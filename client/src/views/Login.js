@@ -12,7 +12,8 @@ const login= user=>{
     axios.post('http://localhost:8000/api/login',user)
         .then(res=>
             {Cookies.set('useID',res.data.User._id)
-            navigate('/home')}
+            
+            navigate('/')}
             )
             .catch(err=>{
                 console.log(err.response)

@@ -2,6 +2,7 @@ import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import logo from '../images/logo.svg'; // gives image path
 import {Link} from '@reach/router';
+import { Router } from "@reach/router";
 const Navbar = () => {
   return (
     <div className="section">
@@ -17,21 +18,19 @@ const Navbar = () => {
             
           </div>
           <div className="links-wrapper">
-            {/* <Link>
-            
+            <Link to="/#tips">
+
+            <button onClick={() => scrollTo("#tips")}>Our Tips</button></Link>
+
+            <Link to="/#about"><button onClick={() => scrollTo("#about")}>About Us</button></Link>
+            <Link to="/programs">
+            <button >Programs</button>
             </Link>
-            <Link>
             
-            </Link>
-            <Link>
             
-            </Link> */}
-            <button onClick={() => scrollTo("#work")}>Our Tips</button>
-            <button onClick={() => scrollTo("#about")}>About Us</button>
+ 
             <button onClick={() => scrollTo("#contact")}>Contact Us</button>
-            <Link to="/ContactUs">
-            Contact Us
-            </Link>
+            
           </div>
         </div>
       </div>

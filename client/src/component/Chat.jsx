@@ -13,6 +13,7 @@ import {
   Typography
 } from "@material-ui/core";
 import Cookies from 'js-cookie';
+import Fade from "react-reveal/Fade"
 
 const Chat = () => {
   const [name, setName] = useState("");
@@ -38,12 +39,12 @@ const Chat = () => {
 
   useEffect(() => {
     console.log("Is this running?");
-    const userId = Cookies.get('userId');
-    // console.log(userId);
+    const userId = Cookies.get('useID');
     axios.get(`http://localhost:8000/api/user/${userId}`)
     .then(res => {
-      console.log(res.data.user.firstname)
       setName(`${res.data.user.firstname} ${res.data.user.lastname}`);
+     
+      
   })
     socket.on("sendMsgtoClients", (msg) => {
       console.log(msg);
@@ -83,9 +84,12 @@ const Chat = () => {
                 value={currMessage}
               />
               
-              <Button variant="contained" color="primary" type="submit">
+
+              <Fade bottom>
+                              <Button className="primary-btn" type="submit">
                 Send
               </Button>
+              </Fade>
             </form>
           </Container>
         </>

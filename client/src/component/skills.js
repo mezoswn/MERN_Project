@@ -1,6 +1,7 @@
 import React from "react"
 import data from "../yourdata"
-
+import { Link } from "@reach/router"
+import Fade from "react-reveal/Fade"
 const Skills = () => {
   return (
     <div className="section">
@@ -11,7 +12,13 @@ const Skills = () => {
             {data.skills.map((skill, index) => (
               <div className="skill" key={index}>
                 <img src={skill.img} alt="css"></img>
-                <h2>{skill.name}</h2>
+                <Fade>
+                <Link to="/programs">
+                <h2 style={{color:"black", textDecoration:"none"}}>{skill.name}</h2>
+                </Link>
+                </Fade>
+
+                
                 <p>{skill.para}</p>
               </div>
             ))}

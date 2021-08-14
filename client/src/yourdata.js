@@ -195,6 +195,70 @@ export default {
     },
     
   ],
+// Programs Page
+  projects1: [
+    {
+      title: "Weight Loss Program", //Project Title - Add Your Project Title Here
+      // para:
+      //   "A basic plan designed specially for you by our specialist coaches to loose your extra weight by following a specific excersices and a food program.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://www.fitfatherproject.com/wp-content/uploads/2017/01/Weight-Loss-workouts-for-men-over-40-min-752x502.png",
+      //Project URL - Add Your Project Url Here
+      // url: "https://www.goldsgym.com/blog/10-outdoor-family-activites-fitness/",
+    },
+    {
+      title: "Be Safe & Exercise Safe", //Project Title - Add Your Project Title Here
+      // para:
+        // "Reduce the effects of stress with just your bodyweight and five simple moves.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://i.ytimg.com/vi/QQG_NdHLi94/maxresdefault.jpg",
+      //Project URL - Add Your Project Url Here
+      // url: "https://www.goldsgym.com/blog/stress-reliever-workout/",
+    },
+    {
+      title: "Body Building Programs", //Project Title - Add Your Project Title Here
+      // para:
+      //   "All you need is a chair and 25 minutes. ", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://www.fitfatherproject.com/wp-content/uploads/2018/08/Gains.png",
+      //Project URL - Add Your Project Url Here
+      // url: "https://www.goldsgym.com/blog/chair-workout-with-home-furniture/",
+    },
+    {
+      title: "Be a Master in Kick Boxing", //Project Title - Add Your Project Title Here
+      // para:
+      //   "3 ways mindful breathing gets better results – and helps improve your mental health.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://rombosports.com/wp-content/uploads/2019/11/boxing-Banners-1.jpg",
+      //Project URL - Add Your Project Url Here
+      // url: "https://www.goldsgym.com/blog/breathworks-workout/",
+    },
+    {
+      title: "Design Your Meals", //Project Title - Add Your Project Title Here
+      // para:
+      //   "How to be active all day at home or the office.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://www.theforgeclinic.com/wp-content/uploads/2018/05/Healthy-eating-habits.jpg",
+      //Project URL - Add Your Project Url Here
+      // url: "https://www.goldsgym.com/blog/5-tips-build-daily-movement-routine/",
+    },
+    {
+      title: "It is Never Too Late for Learning", //Project Title - Add Your Project Title Here
+      // para:
+      //   "Boost your body and mind with these tips.", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+        "https://www.dotcomwomen.com/wp-content/uploads/2014/06/learn-how-to-swim.jpg",
+      //Project URL - Add Your Project Url Here
+      // url: "https://www.goldsgym.com/blog/eat-better-emotional-health/",
+    },
+
+  ],
 
   // End Contact Section ---------------
 }
