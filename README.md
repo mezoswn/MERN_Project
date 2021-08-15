@@ -54,9 +54,11 @@ The website will be fully responsive and have the required authentications and v
 ![blogcorrect](https://user-images.githubusercontent.com/81511441/129468838-b37c928e-6926-4803-9290-46ca91bb3701.gif)
 
 <h4>Ready Programs for explore</h4>
-![choose ready plan correct](https://user-images.githubusercontent.com/81511441/129465342-dec4d6f4-4e0e-446a-928c-2cb4d87ef697.gif)
 
-The routes and the pages functions for the described project will be as bellow:
+![choose ready plan correct](https://user-images.githubusercontent.com/81511441/129469171-62517d11-94a0-4efc-b20e-55a6521d9b8c.gif)
+
+
+<h4>The routes and the pages functions for the described project will be as bellow:</h4>
   
 <h6>Home Page (GoldenGym):</h6>  
 This is the first page will appear to our site visitors, which will contain three parts: 
