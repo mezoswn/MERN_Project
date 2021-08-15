@@ -37,7 +37,7 @@ The website will be fully responsive and have the required authentications and v
 <h4>Login with Validation</h4>
 
 ![login](https://user-images.githubusercontent.com/81511441/129469064-4cd65bb5-d082-49c4-b7d0-9a977736f706.gif)
-![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
+
 
 
 <h4>Register with Validation</h4>
@@ -46,7 +46,8 @@ The website will be fully responsive and have the required authentications and v
 ![register](https://user-images.githubusercontent.com/81511441/129465383-a57f9403-1f65-4f53-8181-66318585d478.gif)
 
 <h4>Easy Clickable Components</h4>
-![kilickable](https://user-images.githubusercontent.com/81511441/129465376-bf68a2c8-84ee-4aa6-bb32-bf4b612aefaa.gif)
+
+![kilickable](https://user-images.githubusercontent.com/81511441/129469127-e27f906d-d0c7-4181-bcd7-c4a596d1f561.gif)
 
 <h4>Follow Our Tips</h4>
 
