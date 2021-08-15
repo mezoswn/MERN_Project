@@ -1,15 +1,5 @@
 
 ![Uploading responsive.gif…]()
-
-
-
-
-![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
-![Uploading home2.gif…]()
-
-
-
-
 # MERN_Project
 
 
@@ -42,7 +32,8 @@ The website will be fully responsive and have the required authentications and v
 
 
 <h4>Login with Validation</h4>
-
+![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
+![Uploading home2.gif…]()
 
 <h4>Register with Validation</h4>
 ![register](https://user-images.githubusercontent.com/81511441/129465383-a57f9403-1f65-4f53-8181-66318585d478.gif)
@@ -51,7 +42,8 @@ The website will be fully responsive and have the required authentications and v
 ![kilickable](https://user-images.githubusercontent.com/81511441/129465376-bf68a2c8-84ee-4aa6-bb32-bf4b612aefaa.gif)
 
 <h4>Follow Our Tips</h4>
-<h4>Ready Programs for explore</h4>
+
+
 <h4>Ready Programs for explore</h4>
 ![choose ready plan correct](https://user-images.githubusercontent.com/81511441/129465342-dec4d6f4-4e0e-446a-928c-2cb4d87ef697.gif)
 
