@@ -1,9 +1,7 @@
 import React from "react"
 import { Link } from "@reach/router"
 import Cookies from "js-cookie"
-import { useEffect, useState } from "react";
-import axios from "axios"
-const Card1 = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card1 = ({ heading, paragraph, imgUrl }) => {
   return (
     <div
       className="card"
@@ -28,7 +26,7 @@ const Card1 = ({ heading, paragraph, imgUrl, projectLink }) => {
                       >
                         Join
                       </Link>)  : ((<Link
-                       to="/new"
+                       to="/register"
                        target="_blank"
                        rel="noopener noreferrer"
                        className="btn"

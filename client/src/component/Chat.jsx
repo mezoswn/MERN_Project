@@ -19,7 +19,6 @@ const Chat = () => {
   const [name, setName] = useState("");
   const [messages, setMessages] = useState([]);
   const [socket] = useState(() => io(":8000"));
-  const [loaded, setLoaded] = useState(false);
   const [currMessage, setCurrMessage] = useState("");
   const date = new Date();
   const [hour, minutes] = [date.getHours(), date.getMinutes()];
@@ -38,11 +37,7 @@ const Chat = () => {
 
   useEffect(() => {
     console.log("Is this running?");
-<<<<<<< HEAD
     const userId = Cookies.get('usertoken');
-=======
-    const userId = Cookies.get('useID');
->>>>>>> 96701ed04005470b67be90c9ba96449c29c30d49
     axios.get(`http://localhost:8000/api/user/${userId}`)
     .then(res => {
       setName(`${res.data.user.firstname} ${res.data.user.lastname}`);

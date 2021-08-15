@@ -1,20 +1,34 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
-import { Link } from "@reach/router"
+import { Link, navigate } from "@reach/router"
 import Cookies from "js-cookie"
 import { useEffect, useState } from "react";
 import axios from "axios"
 const Header = () => {
   const [name, setName] = useState("")
   useEffect(() => {
-    const userId = Cookies.get('useID');
+    const userId = Cookies.get('usertoken');
     axios.get(`http://localhost:8000/api/user/${userId}`)
     .then(res => {
-      setName(`${res.data.user.firstname}`);    
+      if(userId === undefined){
+        setName("Hello");
+      }
+      else{
+        setName(`${res.data.user.firstname}`); 
+      }   
   })
     
   }, []);
+
+  const LogOut = (e) => {
+    e.preventDefault();
+    axios.get('http://localhost:8000/api/logout')
+      .then(res => {
+        Cookies.remove('usertoken')
+        navigate("/login")
+      });
+  }
   
   return (
     <div className="section" id="home">
@@ -48,7 +62,7 @@ const Header = () => {
           <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
-            {Cookies.get("useID") === undefined ?
+            {Cookies.get("usertoken") === undefined ?
                     (<Link
                       // href={`mailto:${
                       //   data.contactEmail ? data.contactEmail : "admin@goldengym.com"
@@ -57,15 +71,15 @@ const Header = () => {
                       className="primary-btn"
                     >
                       Login || Register
-                    </Link>)  : ((<Link
+                    </Link>)  : ((<button
                       // href={`mailto:${
                       //   data.contactEmail ? data.contactEmail : "admin@goldengym.com"
                       // }`}
-                      to="/logout"
                       className="primary-btn"
+                      onClick={LogOut}
                     >
                       Logout
-                    </Link>))}
+                    </button>))}
           
 
           </Fade>

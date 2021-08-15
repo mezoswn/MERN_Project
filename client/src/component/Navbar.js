@@ -2,7 +2,6 @@ import React from "react"
 import scrollTo from "gatsby-plugin-smoothscroll"
 import logo from '../images/logo.svg'; // gives image path
 import {Link} from '@reach/router';
-import { Router } from "@reach/router";
 const Navbar = () => {
   return (
     <div className="section">

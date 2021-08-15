@@ -13,7 +13,7 @@ const CreateUser = () => {
             .then(res => {
                 Cookies.set('usertoken',res.data.user._id)
                 localStorage.setItem('thisId', res.data.user._id);
-                navigate("/home")
+                navigate("/")
             }).catch(err=>{
                 const errorResponse = err.response.data.errors; // Get the errors from err.response.data
                 const errorArr = []; // Define a temp error array to push the messages in
