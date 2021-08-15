@@ -14,7 +14,13 @@ const ThankYou = () => {
     const userId = Cookies.get('usertoken');
     axios.get(`http://localhost:8000/api/user/${userId}`)
     .then(res => {
-      setName(`${res.data.user.firstname}`);    
+      if(userId == undefined){
+        setName("");
+      }
+      else{
+        setName(`${res.data.user.firstname}`);  
+      }
+        
   })
     
   }, []);
