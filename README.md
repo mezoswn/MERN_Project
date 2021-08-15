@@ -16,33 +16,34 @@ The customer will have the ability to register with the gym and he can be able t
 The website will be fully responsive and have the required authentications and validations.
 The routes and the pages functions for the described project will be as bellow:
   
-Home Page (GoldenGym):  
+<h6>Home Page (GoldenGym):</h6>  
 This is the first page will appear to our site visitors, which will contain three parts: 
 The navbar: contains our name, about us & registration / log in. 
 Text field with the welcome letter. 
 The footer: contains the contact details and other useful links such as FAQ. 
 
-Login & Registration (GoldenGym/Login or Register):  
+<h6>Login & Registration (GoldenGym/Login or Register): </h6> 
 This page will enable us to login to the user account if he is already registered in the site before or to register if he is a new user.
 It will contain filling for some of the personal information for the user such as first & last name, email & Phone number. 
 
-Welcome (GoldenGym/user/id)): 
+<h6>Welcome (GoldenGym/user/id)): </h6>
 This page to preview the user information and to show all the functionality as a user, fill up his weight and height so the gym will design a plan for him and the user could choose the diet plan. 
 
-The Admin Page (Coach Page) (GoldenGym/Admin) :  
+<h6>The Admin Page (Coach Page) (GoldenGym/Admin) :  </h6>
 This is the admin page, which will allow us to add the diet plans which will be offered to the users and update the status for each user/plan or delete them.
 
-About Us(GoldenGym/user/id/services)  - OPTIONAL: 
+<h6>About Us(GoldenGym/user/id/services)  - OPTIONAL: </h6>
 The user will go through this page to discover us and know our services and some information about the project creators.
 
-Plans Page (GoldenGym/user/id/plans): 
+<h6>Plans Page (GoldenGym/user/id/plans): </h6>
 Through this page the user will have the privilege to choose the required designed plan for him, so he can proceed with the program and start the process. There will be two pages same as this one, each related to the designed program and as per the user goal.
 
-Contact us Page (GoldenGym/contactus): 
+<h6>Contact us Page (GoldenGym/contactus): </h6>
 Through this page we can ask GoldenGym to contact and reach the user, so we can collect the required information or to give any kind of support to the user and the customer.
 
-The Project Requirements: 
-Home Page (localhost/3000): 
+<h6>The Project Requirements:</h6> 
+
+<h6>Home Page (localhost/3000): </h6>
 This page is responsive. 
 Includes NavBar which have Home, Programmes, Contact us & Login/Registration or Logout.
 Login: link which route for login page. (localhost/login) 
