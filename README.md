@@ -31,7 +31,8 @@ The website will be fully responsive and have the required authentications and v
 ![chatcorrect](https://user-images.githubusercontent.com/81511441/129468981-a1df05dc-c574-4ae9-b58d-b3843bd5cd0f.gif)
 
 <h4>Our Website is Fully Responsive</h4>
-![responsive](https://user-images.githubusercontent.com/81511441/129465735-01068b7e-92b6-476b-b92a-f11b1c8ae0e2.gif)
+
+![responsive](https://user-images.githubusercontent.com/81511441/129469010-02ce9630-789f-4bc5-8bbd-28d810412909.gif)
 
 <h4>Login with Validation</h4>
 ![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
