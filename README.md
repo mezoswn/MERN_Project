@@ -1,3 +1,15 @@
+
+![Uploading responsive.gif…]()
+
+
+
+
+![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
+![Uploading home2.gif…]()
+
+
+
+
 # MERN_Project
 
 
@@ -19,6 +31,30 @@ The website contains 5 pages +1 admin page, (Home page, login & registration, lo
 The customer will have the ability to register with the gym and he can be able to choose a designed rejeim plan or to request a custom plan depending on his requirements.
 
 The website will be fully responsive and have the required authentications and validations.
+
+<h2>Welcome to Our Home Page</h2>
+![homepage](https://user-images.githubusercontent.com/81511441/129465373-aa06bece-f66d-420f-a54b-e6b28de5c766.gif)
+
+<h4>Live Chat with Player and Coach</h4>
+![chatcorrect](https://user-images.githubusercontent.com/81511441/129465343-3be6fb48-9e5e-4fb8-8aff-2274420080dd.gif)
+
+<h4>Our Website is Fully Responsive</h4>
+
+
+<h4>Login with Validation</h4>
+
+
+<h4>Register with Validation</h4>
+![register](https://user-images.githubusercontent.com/81511441/129465383-a57f9403-1f65-4f53-8181-66318585d478.gif)
+
+<h4>Easy Clickable Components</h4>
+![kilickable](https://user-images.githubusercontent.com/81511441/129465376-bf68a2c8-84ee-4aa6-bb32-bf4b612aefaa.gif)
+
+<h4>Follow Our Tips</h4>
+<h4>Ready Programs for explore</h4>
+<h4>Ready Programs for explore</h4>
+![choose ready plan correct](https://user-images.githubusercontent.com/81511441/129465342-dec4d6f4-4e0e-446a-928c-2cb4d87ef697.gif)
+
 The routes and the pages functions for the described project will be as bellow:
   
 <h6>Home Page (GoldenGym):</h6>  
