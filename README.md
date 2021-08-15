@@ -6,6 +6,10 @@
 <h3>Palestine</h3>
 
 <h5>About:</h5>
+Being healthy means not only away from diseases but it also means the complete feeling of physical, mental and social well being. Maintaining health and fitness is not a simple task however; not so tough too. We need to involve ourselves into some daily physical activities together with the healthy, fresh and timely food which can only provide us long-term health and fitness benefits. We burn extra and unnecessary calories to our body through physical exercises. Daily physical exercises keep kids so active and put them on a path of better physical and mental health.
+
+Physical activities along with the proper nutrition are really very beneficial to the people of all ages from any background and abilities. Being involved in the daily physical exercises is a good strategy to defeat obesity.
+
 The idea  of our project is to create a website for athletes and for the persons who want to change their lifestyle, the project is called Golden Gym and the code will be implemented in MERN code using mongooseDB for creating the DB.
 
 The website offers many programs as per the requirements of the customer data and body situation to create the correct and suitable program for him.
