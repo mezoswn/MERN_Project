@@ -35,10 +35,14 @@ The website will be fully responsive and have the required authentications and v
 ![responsive](https://user-images.githubusercontent.com/81511441/129469010-02ce9630-789f-4bc5-8bbd-28d810412909.gif)
 
 <h4>Login with Validation</h4>
+
+![login](https://user-images.githubusercontent.com/81511441/129469064-4cd65bb5-d082-49c4-b7d0-9a977736f706.gif)
 ![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
 
 
 <h4>Register with Validation</h4>
+
+
 ![register](https://user-images.githubusercontent.com/81511441/129465383-a57f9403-1f65-4f53-8181-66318585d478.gif)
 
 <h4>Easy Clickable Components</h4>
