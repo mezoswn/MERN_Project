@@ -1,5 +1,3 @@
-
-![Uploading responsive.gif…]()
 # MERN_Project
 
 
@@ -24,16 +22,17 @@ The website will be fully responsive and have the required authentications and v
 
 <h2>Welcome to Our Home Page</h2>
 ![homepage](https://user-images.githubusercontent.com/81511441/129465373-aa06bece-f66d-420f-a54b-e6b28de5c766.gif)
+![home2](https://user-images.githubusercontent.com/81511441/129465797-fc3a87eb-4b31-43ad-8dd9-7aa3c46c1a1c.gif)
 
 <h4>Live Chat with Player and Coach</h4>
 ![chatcorrect](https://user-images.githubusercontent.com/81511441/129465343-3be6fb48-9e5e-4fb8-8aff-2274420080dd.gif)
 
 <h4>Our Website is Fully Responsive</h4>
-
+![responsive](https://user-images.githubusercontent.com/81511441/129465735-01068b7e-92b6-476b-b92a-f11b1c8ae0e2.gif)
 
 <h4>Login with Validation</h4>
 ![login](https://user-images.githubusercontent.com/81511441/129465381-4edeef40-bcad-4d9d-8997-341244827c1c.gif)
-![Uploading home2.gif…]()
+
 
 <h4>Register with Validation</h4>
 ![register](https://user-images.githubusercontent.com/81511441/129465383-a57f9403-1f65-4f53-8181-66318585d478.gif)
