@@ -13,7 +13,7 @@ const Login = () => {
                 console.log(res.data.User)
                 Cookies.set('usertoken', res.data.User._id)
                 localStorage.setItem('thisId', res.data.User._id);
-                navigate('/home')
+                navigate('/')
             })
           
 

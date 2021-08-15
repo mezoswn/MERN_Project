@@ -11,7 +11,7 @@ import axios from "axios"
 const ThankYou = () => {
   const [name, setName] = useState("")
   useEffect(() => {
-    const userId = Cookies.get('useID');
+    const userId = Cookies.get('usertoken');
     axios.get(`http://localhost:8000/api/user/${userId}`)
     .then(res => {
       setName(`${res.data.user.firstname}`);    

@@ -17,7 +17,7 @@ const Card1 = ({ heading, paragraph, imgUrl }) => {
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
 
-        {Cookies.get("useID") !== undefined ?
+        {Cookies.get("usertoken") !== undefined ?
                     (<Link
                         to="/thank-you"
                         target="_blank"
