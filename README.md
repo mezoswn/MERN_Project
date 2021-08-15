@@ -21,6 +21,7 @@ The customer will have the ability to register with the gym and he can be able t
 The website will be fully responsive and have the required authentications and validations.
 
 <h2>Welcome to Our Home Page</h2>
+
 ![homepage](https://user-images.githubusercontent.com/81511441/129465373-aa06bece-f66d-420f-a54b-e6b28de5c766.gif)
 
 ![home2](https://user-images.githubusercontent.com/81511441/129465797-fc3a87eb-4b31-43ad-8dd9-7aa3c46c1a1c.gif)
