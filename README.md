@@ -4,6 +4,7 @@
 <h2>Adam Dalbah, Ahmed Sufian, Hani Kiwan and Moath Sweidan</h2>
 <h3>Axsos Academy</h3>
 <h3>Palestine</h3>
+![logo](https://user-images.githubusercontent.com/81511441/129464516-e65f318f-8368-4289-8f57-cfe1abf9ba6b.png)
 
 <h5>About:</h5>
 Being healthy means not only away from diseases but it also means the complete feeling of physical, mental and social well being. Maintaining health and fitness is not a simple task however; not so tough too. We need to involve ourselves into some daily physical activities together with the healthy, fresh and timely food which can only provide us long-term health and fitness benefits. We burn extra and unnecessary calories to our body through physical exercises. Daily physical exercises keep kids so active and put them on a path of better physical and mental health.
