@@ -5,7 +5,7 @@
 <h3>Axsos Academy</h3>
 <h3>Palestine</h3>
 
-About:
+<h5>About:</h5>
 The idea  of our project is to create a website for athletes and for the persons who want to change their lifestyle, the project is called Golden Gym and the code will be implemented in MERN code using mongooseDB for creating the DB.
 
 The website offers many programs as per the requirements of the customer data and body situation to create the correct and suitable program for him.
