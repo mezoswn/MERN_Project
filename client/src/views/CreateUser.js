@@ -30,7 +30,8 @@ const CreateUser = () => {
 
 
     return (
-        <div>
+        <div style={{margin:"0 auto",width:"2000px" , height:"800px",backgroundColor:"white",border:'black solid 4px',borderRadius:"5px",backgroundImage:"url(https://img4.goodfon.com/wallpaper/nbig/d/5a/bodybuilding-bodibilder-weight-training-muscles-bodybuilder.jpg)"}}>
+           
             {errors.map((err,index)=> <p key={index}>{err}</p>)}
             <UserForm onSubmitProp={createusererson} />
 

@@ -38,11 +38,12 @@ const PlanForm = (props)  => {
     return (
         <>
 
-            <div>
+            <div style={{backgroundColor:"white",width:"500px" ,height:"500px" ,margin:"0 auto",marginTop:"200px", borderRadius:"10px",backgroundImage:`url(https://library.kissclipart.com/20180902/wyq/kissclipart-fitness-logo-vector-png-clipart-fitness-centre-phy-77840a10541d02e8.png)`}}>
                 <form onSubmit={onSubmitHandler}>
                     <FormControl>
                         <InputLabel >Weight/KG:</InputLabel>
                         <Input
+                            
                             type="number"
                             name="weight" value={weight}
                             onChange={(e) => { setWeight(e.target.value) }} />

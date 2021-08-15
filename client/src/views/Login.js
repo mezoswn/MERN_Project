@@ -22,8 +22,10 @@ const Login = () => {
 
     return (
         <div style={{ backgroundColor: "black", width: "auto", height: "auto", margin: '0 auto' }} >
-            <Container style={{ backgroundImage: `url("https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Gold%27s_Gym_logo.svg/1200px-Gold%27s_Gym_logo.svg.png")`, width: "1200px", height: "1200px" }}>
+           
+            <Container style={{ backgroundImage: `url("https://i.pinimg.com/originals/7a/11/b9/7a11b9f739c130eed437d1a237cc3b7d.jpg")`, width: "700px", height: "1000px" }}>
                 <div style={{}}>
+                    
                     <LoginForm onSubmitProp={login} error={errors} />
                 </div>
             </Container>

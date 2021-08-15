@@ -28,7 +28,7 @@ export default props => {
 
     const useStyles = makeStyles({
         root: {
-            background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+            background: 'black',
             border: 0,
             borderRadius: 3,
             boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
@@ -41,12 +41,15 @@ export default props => {
     return (
         <>
 
-            <div>
+            <div style={{margin:"0 auto",width:"500px" }}>
+                
+           
                 {msg}
-                <form onSubmit={onSubmitHandler} >
-                    <FormControl>
+                <form onSubmit={onSubmitHandler} style={{backgroundColor:"white",width:"500px" ,height:"500px" ,margin:"0 auto",marginTop:"200px", borderRadius:"10px",backgroundImage:`url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0tVoVTXMSdF7XJj1lNS5nrsjC7Xbn7CZ9A&usqp=CAU)`}}>
+                <h1 style={{fontFamily:'fantasy'}}>Register</h1>
+                    <FormControl >
                         <InputLabel >First Name:</InputLabel>
-                        <Input
+                        <Input 
                             type="text"
                             name="firstname" value={firstname}
                             onChange={(e) => { setFirstName(e.target.value) }} />
@@ -55,8 +58,8 @@ export default props => {
                     <br />
                     <FormControl>
 
-                        <InputLabel >Last Name:</InputLabel>
-                        <Input
+                        <InputLabel  >Last Name:</InputLabel>
+                        <Input 
                             type="text"
                             name="lastname" value={lastname}
                             onChange={(e) => { setLastName(e.target.value) }} />

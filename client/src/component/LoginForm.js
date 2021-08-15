@@ -74,10 +74,11 @@ const [password,setPassword]=useState("")
   }
 
   return (
-    <Container  style={{backgroundImage: `url("")`}} component="main" maxWidth="xs">
+    <Container  component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
+        <Avatar  style={{width:"200px",height:"150px"}} className={classes.avatar}>
+        <img style={{backgroundColor: "white",borderRadius:"5pxs" }} src="/static/media/logo.17320619.svg" height="150px" alt="this is car image"></img>
         </Avatar>
         <Typography component="h1" variant="h5">
           Sign in
@@ -87,7 +88,7 @@ const [password,setPassword]=useState("")
                 (err,index)=> <p key={index}> {err}  </p>
             )} </p> 
         <form  onSubmit={onSubmitHandler} className={classes.form} noValidate>
-          <TextField onChange={(e)=>{setEmail(e.target.value)}} style={{backgroundColor:"yellow"}}
+          <TextField onChange={(e)=>{setEmail(e.target.value)}} style={{backgroundColor:"white" , borderRadius:"10px"}}
             variant="outlined"
             margin="normal"
             required
@@ -100,7 +101,7 @@ const [password,setPassword]=useState("")
             
           />
           <TextField onChange={(e)=>{setPassword(e.target.value)}}
-          style={{backgroundColor:"yellow"}}
+          style={{backgroundColor:"white",borderRadius:"10px"}}
             variant="outlined"
             margin="normal"
             required
@@ -131,7 +132,7 @@ const [password,setPassword]=useState("")
               </Link>
             </Grid>
             <Grid item>
-              <Link href="/register" variant="body2">
+              <Link  href="/register"   variant="body2">
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>
