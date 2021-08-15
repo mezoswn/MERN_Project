@@ -51,12 +51,12 @@ Register: link which route for register page. (localhost/register)
 Welcome text & summary. (Paragraph introduction will be about the project and the mechanism for rejeim plans services and information). 
 Footer contains (contacts). (Link to route us for the social account of the company (not active)). 
 
-Login Page: (localhost/login): 
+<h6>Login Page: (localhost/login):</h6> 
 This page is responsive.
 Validation for email to make sure the user is registered & email should be unique. 
 Validation for password as correct password. 
 
-Register Page (user): (localhost/Register):
+<h6>Register Page (user): (localhost/Register):</h6>
 This page is responsive.
 This basic register page contains a text field for the first name which must have only letters without numbers or special characters and should be at least 3 characters. 
 text field for last name which must have only letters without number or special characters and should be at least 3 characters. 
@@ -67,7 +67,7 @@ Register button: for registration and will redirect the user to the welcome page
 Home link to redirect the user to the home page (localhost/home). 
 Login link to redirect the user to the login page if the user already registered (localhost/login) 
 
-Welcome Page (user): (localhost/user/id): 
+<h6>Welcome Page (user): (localhost/user/id): </h6>
 This page is responsive.
 The Navbar will always depend on the logged user.
 This page will be redirected after user registration or logging in. 
@@ -75,14 +75,14 @@ Information field has the basic information about the project.
 Image field.
 Build a plan section which requires the user to provide his weight, height with the required goals (lose weight or gain weight), age & his condition if he have any special conditions  with a two buttons, the first button is for build a custom plan by the coach which will redirect the user to the thank you page(localhost/user/id/response), and the other button for choosing a ready plan which will redirect the user to the plans page (localhost/user/id/plans).
 
-Plans Page (user): (localhost/user/id/plans): 
+<h6>Plans Page (user): (localhost/user/id/plans): </h6>
 This page is responsive.
 The Navbar will always depend on the logged user.
 This page contains four designed programmes which will be shown as images. The user could choose only one of them, under each program we will have a button to choose.
 After the user choose his desired program he will be redirected to 
 the thank you page(localhost/user/id/response).
 
-The Coach Page: (localhost/admin):
+<h6>The Coach Page: (localhost/admin):</h6>
 This page is responsive.
 The Navbar will be displayed.
 This page will display a table for showing the users information and their desired plans with four buttons (add plan, update plan, delete plan & delete user).
@@ -91,12 +91,7 @@ Delete plan button to delete any of the existing plans displayed.
 Delete user button to delete the user after achieving the required goal or canceling the membership.
 Log out button to logout and redirect the user to the home page (localhost/home). 
 
-
-
-
-
-
-Contact us Page: (localhost/contactus)
+<h6>Contact us Page: (localhost/contactus)</h6>
 This page is responsive.
 This page will be redirected when the user needs support or any concern. 
 This page contains the name text field which must have only letters without number or special characters and should be at least 3 characters. 
@@ -105,7 +100,7 @@ Phone field: must be numbers only and 10 digits only.
 Project map location.
 Chat live box using the socket i.o to allow the user to live chat with the coach.
 
-Thank You Page: (localhost/Response):
+<h6>Thank You Page: (localhost/Response):</h6>
 This page is responsive.
 This page will be displaying a thank you letter and that we will contact the user soon. 
 Home button to redirect the user to the home page (localhost/home). 
