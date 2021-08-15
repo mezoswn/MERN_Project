@@ -27,7 +27,8 @@ The website will be fully responsive and have the required authentications and v
 ![home2](https://user-images.githubusercontent.com/81511441/129465797-fc3a87eb-4b31-43ad-8dd9-7aa3c46c1a1c.gif)
 
 <h4>Live Chat with Player and Coach</h4>
-![chatcorrect](https://user-images.githubusercontent.com/81511441/129465343-3be6fb48-9e5e-4fb8-8aff-2274420080dd.gif)
+
+![chatcorrect](https://user-images.githubusercontent.com/81511441/129468981-a1df05dc-c574-4ae9-b58d-b3843bd5cd0f.gif)
 
 <h4>Our Website is Fully Responsive</h4>
 ![responsive](https://user-images.githubusercontent.com/81511441/129465735-01068b7e-92b6-476b-b92a-f11b1c8ae0e2.gif)
