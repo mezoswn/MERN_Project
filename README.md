@@ -1,9 +1,9 @@
 # MERN_Project
 
-
 <h2>Adam Dalbah, Ahmed Sufian, Hani Kiwan and Moath Sweidan</h2>
 <h3>Axsos Academy</h3>
 <h3>Palestine</h3>
+
 ![logo](https://user-images.githubusercontent.com/81511441/129464516-e65f318f-8368-4289-8f57-cfe1abf9ba6b.png)
 
 <h5>About:</h5>
@@ -22,6 +22,7 @@ The website will be fully responsive and have the required authentications and v
 
 <h2>Welcome to Our Home Page</h2>
 ![homepage](https://user-images.githubusercontent.com/81511441/129465373-aa06bece-f66d-420f-a54b-e6b28de5c766.gif)
+
 ![home2](https://user-images.githubusercontent.com/81511441/129465797-fc3a87eb-4b31-43ad-8dd9-7aa3c46c1a1c.gif)
 
 <h4>Live Chat with Player and Coach</h4>
@@ -42,6 +43,7 @@ The website will be fully responsive and have the required authentications and v
 
 <h4>Follow Our Tips</h4>
 
+![blogcorrect](https://user-images.githubusercontent.com/81511441/129468838-b37c928e-6926-4803-9290-46ca91bb3701.gif)
 
 <h4>Ready Programs for explore</h4>
 ![choose ready plan correct](https://user-images.githubusercontent.com/81511441/129465342-dec4d6f4-4e0e-446a-928c-2cb4d87ef697.gif)
